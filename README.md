@@ -1,4 +1,4 @@
-# Bloom Travels — Backend Template
+# Amit's — Backend Template
 
 An Express + Mongoose backend template for quick project bootstrapping.
 

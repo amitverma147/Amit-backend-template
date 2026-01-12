@@ -1,6 +1,6 @@
 {
   "name": "amit-backend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Amit's Backend - Express + Mongoose template",
   "main": "src/index.js",
   "type": "module",
