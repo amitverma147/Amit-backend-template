@@ -22,12 +22,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TruwixTech/Bloom-Travels_Back-end.git"
+    "url": "git+https://github.com/amitverma147/Amit-backend-template.git"
   },
   "bugs": {
-    "url": "https://github.com/TruwixTech/Bloom-Travels_Back-end/issues"
+    "url": "https://github.com/amitverma147/Amit-backend-template/issues"
   },
-  "homepage": "https://github.com/TruwixTech/Bloom-Travels_Back-end#readme",
+  "homepage": "https://github.com/amitverma147/Amit-backend-template#readme",
   "publishConfig": {
     "access": "public"
   },

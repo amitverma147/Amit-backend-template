@@ -17,16 +17,16 @@ After this package is published, install with:
 
 ```bash
 # npm
-npm install bloom-travels-backend
+npm install amit-backend
 # pnpm
-pnpm add bloom-travels-backend
+pnpm add amit-backend
 ```
 
 Or use the repository directly:
 
 ```bash
-git clone https://github.com/TruwixTech/Bloom-Travels_Back-end.git
-cd Bloom-Travels_Back-end
+git clone https://github.com/amitverma147/Amit-backend-template.git
+cd Amit-backend-template
 pnpm install
 pnpm dev
 ```
