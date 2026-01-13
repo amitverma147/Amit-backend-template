@@ -1,6 +1,6 @@
 {
   "name": "amit-backend",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Amit's Backend - Express + Mongoose template",
   "main": "src/index.js",
   "type": "module",
@@ -11,7 +11,15 @@
     "prepublishOnly": "pnpm test",
     "publish": "pnpm publish --access public"
   },
-  "keywords": ["express","node","backend","template","mongoose","mongodb","auth"],
+  "keywords": [
+    "express",
+    "node",
+    "backend",
+    "template",
+    "mongoose",
+    "mongodb",
+    "auth"
+  ],
   "author": "Amit Verma",
   "license": "MIT",
   "packageManager": "pnpm@10.28.0",
@@ -35,6 +43,7 @@
     "node": ">=18"
   },
   "dependencies": {
+    "amit-backend": "^1.0.2",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
