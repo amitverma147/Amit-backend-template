@@ -11,6 +11,8 @@ import connectDB from "./config/db.js";
 
 import AppError from "./utils/AppError.js";
 import globalErrorHandler from "./middlewares/globalErrorHandler.js";
+import figlet from "figlet";
+import gradient from "gradient-string";
 
 const app = express();
 dotenv.config();
@@ -40,7 +42,25 @@ app.use((req, res, next) => {
 app.use(globalErrorHandler);
 
 const server = app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  figlet(
+    "AMIT's BACKEND\nTEMPLATE",
+    {
+      font: "Standard",
+      horizontalLayout: "default",
+      verticalLayout: "default",
+      width: 80,
+      whitespaceBreak: true,
+    },
+    (err, data) => {
+      if (err) {
+        console.log("Something went wrong...");
+        console.dir(err);
+        return;
+      }
+      console.log(gradient.pastel.multiline(data));
+      console.log(gradient.cristal(`Server is running on port ${PORT}`));
+    }
+  );
 });
 
 // Graceful Shutdown Logic
