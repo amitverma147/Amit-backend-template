@@ -1,6 +1,6 @@
 {
   "name": "create-amit-backend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "bin": {
     "create-amit-backend": "bin/create.js"
